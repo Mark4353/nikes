@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <title>Nike Sneakers</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            min-height: 100vh;
+            position: relative;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        .nav-list li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .nav-list li:last-child {
+            margin-right: 0;
+        }
+
+        .nav-list li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .nav-list li a:hover {
+            color: #ccc;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .sneaker {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            width: 300px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .sneaker img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .sneaker h2 {
+            margin-top: 0;
+        }
+
+        .sneaker p {
+            margin-bottom: 10px;
+        }
+
+        .buy-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .buy-btn:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+.faq-text{
+    text-align: center;
+}
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .buy-btn {
+                display: block;
+                
+                padding: 10px;
+                text-align: center;
+                background-color: #007bff;
+                color: #fff;
+                text-decoration: none;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+    
+            .buy-btn:hover {
+                background-color: #0056b3;
+            }
+            </style>
+    
+</head>
+<body>
+    <header>
+        <h1>Nike Sneakers</h1>
+        <ul class="nav-list">
+            <li><a href="#running">Running</a></li>
+            <li><a href="#basketball">Basketball</a></li>
+            <li><a href="#casual">Casual</a></li>
+            <li><a href="#New Arrivals">New Arrivals</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="section" id="running">
+            <h2 class="section-title">Running Collection</h2>
+            <div class="container">
+                <div class="sneaker">
+                    <img src="./images/Nike Air Zoom Pegasus 38.jpg" alt="Nike Air Zoom Pegasus 38">
+                    <h2>Nike Air Zoom Pegasus 38</h2>
+                    <p>The Nike Air Zoom Pegasus 38 offers responsive cushioning and a lightweight design for a smooth, comfortable run. It's suitable for runners of all levels.</p>
+                    <p>Price: $120</p>
+                    <a href="./modal.html" class="buy-btn">Buy Now</a>
+                    
+                </div>
+                <div class="sneaker">
+                    <img src="./images/Nike React Infinity Run Flyknit.jpg" alt="Nike React Infinity Run Flyknit">
+                    <h2>Nike React Infinity Run Flyknit</h2>
+                    <p>The Nike React Infinity Run Flyknit provides a soft, responsive ride with increased stability to help reduce the risk of running-related injuries. It's designed for long-distance runs.</p>
+                    <p>Price: $160</p>
+                    <a href="./modal.html" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="sneaker">
+                    <img src="./images/Nike ZoomX Invincible Run Flyknit.jpg" alt="Nike ZoomX Invincible Run Flyknit">
+                    <h2>Nike Invincible Run Flyknit</h2>
+                    <p>The Nike ZoomX Invincible Run Flyknit delivers energy return and cushioning for a smooth, comfortable run. It's designed to keep you feeling fresh mile after mile.</p>
+                    <p>Price: $180</p>
+                    <a href="./modal.html" class="buy-btn">Buy Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="basketball">
+            <h2 class="section-title">Basketball Collection</h2>
+            <div class="container">
+                <div class="sneaker">
+                    <img src="./images/Nike LeBron 19.jpg" alt="Nike LeBron 19">
+                    <h2>Nike LeBron 19</h2>
+                    <p>The Nike LeBron 19 offers responsive cushioning and support for explosive play on the basketball court. It's designed to meet the demands of LeBron James' powerful game.</p>
+                    <p>Price: $200</p>
+                    <a href="./modal.html" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="sneaker">
+                    <img src="./images/Nike KD 14.jpg" alt="Nike KD 14">
+                    <h2>Nike KD 14</h2>
+                    <p>The Nike KD 14 provides lightweight cushioning and a supportive fit for versatile play on the basketball court. It's designed to help players like Kevin Durant excel in all aspects of the game.</p>
+                    <p>Price: $150</p>
+                    <a href="./modal.html" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="sneaker">
+                    <img src="./images/Nike Kyrie 8.jpg" alt="Nike Kyrie 8">
+                    <h2>Nike Kyrie 8</h2>
+                    <p>The Nike Kyrie 8 offers responsive cushioning and exceptional traction for quick cuts and agile play on the basketball court. It's designed to help players like Kyrie Irving dominate the game.</p>
+                    <p>Price: $130</p>
+                    <a href="./modal.html" class="buy-btn">Buy Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="casual">
+            <h2 class="section-title">Casual Collection</h2>
+            <div class="container">
+                <div class="sneaker">
+                    <img src="./images/Nike Air Max 90.jpg" alt="Nike Air Max 90">
+                    <h2>Nike Air Max 90</h2>
+                    <p>The Nike Air Max 90 is a timeless classic with iconic design elements and premium materials. It offers all-day comfort and street-ready style.</p>
+                    <p>Price: $120</p>
+                    <a href="./modal.html" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="sneaker">
+                    <img src="./images/Nike Air Force 1.jpg" alt="Nike Air Force 1">
+                    <h2>Nike Air Force 1</h2>
+                    <p>The Nike Air Force 1 is an iconic sneaker known for its clean design and premium materials. It's suitable for both casual and sporty looks.</p>
+                    <p>Price: $100</p>
+                    <a href="./modal.html" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="sneaker">
+                    <img src="./images/Nike React Vision.jpg" alt="Nike React Vision">
+                    <h2>Nike React Vision</h2>
+                    <p>The Nike React Vision offers a modern, street-ready look with lightweight cushioning and a breathable design. It's perfect for everyday wear.</p>
+                    <p>Price: $140</p>
+                    <a href="./modal.html" class="buy-btn">Buy Now</a>
+                </div>
+            </div>
+        </section>
+        
+
+          <section class="section">
+            <h2 class="section-title" id="New Arrivals">New Arrivals</h2>
+            <div class="container">
+                <div class="sneaker">
+                    <img src="./images/Nike-Air-Zoom-Alphafly-NEXT.jpg" alt="Nike Air Zoom Alphafly NEXT%">
+                    <h2>Nike Air Zoom Alphafly NEXT%</h2>
+                    <p>The Nike Air Zoom Alphafly NEXT% is designed for elite runners looking for maximum performance. It features responsive cushioning and a lightweight design to help you achieve your best times.</p>
+                    <p>Price: $250</p>
+                    <a href="./modal.html" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="sneaker">
+                    <img src="./images/Nike-Air-VaporMax-2022.jpg" alt="Nike Air VaporMax 2022">
+                    <h2>Nike Air VaporMax 2022</h2>
+                    <p>The Nike Air VaporMax 2022 offers futuristic style and innovative cushioning. It's designed to provide a comfortable ride with a bold, modern look.</p>
+                    <p>Price: $220</p>
+                    <a href="./modal1.html" class="buy-btn">Buy Now</a>
+                </div>
+                <div class="sneaker">
+                    <img src="./images/Nike-Air-Zoom-Tempo-NEXT.jpg" alt="Nike Air Zoom Tempo NEXT%">
+                    <h2>Nike Air Zoom Tempo NEXT%</h2>
+                    <p>The Nike Air Zoom Tempo NEXT% combines responsiveness with durability for your everyday training runs. It features ZoomX foam and React technology for a smooth, energy-returning ride.</p>
+                    <p>Price: $180</p>
+                    <a href="./modal.html" class="buy-btn">Buy Now</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="faq">
+            <h2 class="section-title">FAQ</h2>
+            <div class="content">
+                <p class="faq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et quam a magna vulputate facilisis.</p>
+                <p class="faq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et quam a magna vulputate facilisis.</p>
+                <p class="faq-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam et quam a magna vulputate facilisis.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1"  placeholder="name@gmail.com">
+
+        </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="password">
+                     <a href="#"> <button type="submit" class="btn btn-primary">Submit</button></a>
+                    </div>
+                    <p>&copy; 2024 Nike Sneakers. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
+<!-- <h2 class="slide-title">New Models</h2>
+        <div id="carouselExampleAutoplaying" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class=" active">
+                <img src="./images/nike-dunk-low.jpg" class="d-block  slide-img" alt="nike-dunk-low">
+              </div>
+              <div class="">
+                <img src="./images/nike-new.jpg" class="d-block  slide-img" alt="nike-new">
+              </div>
+              <div class="">
+                <img src="./images/nike-yellow.jpg" class="d-block  slide-img" alt="nike-yellow">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> -->
